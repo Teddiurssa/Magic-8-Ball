@@ -1,17 +1,22 @@
 body {
     font-family: "Montserrat", sans-serif;
     color: #454545;
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
     background-color: #f8f8f8;
     background-image: url('bkgd2.png');
+    width: 1024px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 .page {
-    width: 80%;
-    max-width: 960px;
+   
     margin: 0 auto;
+  
 }
 .ball img {
   display: block;
@@ -23,13 +28,14 @@ body {
 .ball,
 .button {
     margin: 0 auto;
+    width: 100%;
 }
 
 .answer {
     position: absolute;
     width: 9%;
-    top: 42%;
-    left: 52%;
+    top: 48%;
+    left: 53%;
     margin-top: -60px;
     margin-left: -65px;
     font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
